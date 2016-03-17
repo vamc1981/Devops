@@ -1,0 +1,13 @@
+#How to install java
+yum install java 
+
+# how to remove java
+yum remove java
+
+#java path
+
+export JAVA_HOME=/usr/bin
+
+#path
+
+export PATH=$JAVA_HOME:$PATH
